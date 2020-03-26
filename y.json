@@ -1,0 +1,73 @@
+{
+    "id": 59654688,
+    "scene_width": 64000,
+    "scene_height": 64000,
+    "nodes": [
+        {
+            "id": 59768944,
+            "title": "Input",
+            "pos_x": -514.0,
+            "pos_y": -172.0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 59802912,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 3
+                }
+            ],
+            "content": {
+                "value": "1"
+            },
+            "op_code": 1
+        },
+        {
+            "id": 64678160,
+            "title": "Input",
+            "pos_x": -482.0,
+            "pos_y": 212.0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "id": 64678304,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 3
+                }
+            ],
+            "content": {
+                "value": "1"
+            },
+            "op_code": 1
+        },
+        {
+            "id": 64679912,
+            "title": "Output",
+            "pos_x": 577.0,
+            "pos_y": -168.0,
+            "inputs": [
+                {
+                    "id": 128370744,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 2,
+                    "socket_type": 1
+                }
+            ],
+            "outputs": [],
+            "content": {},
+            "op_code": 2
+        }
+    ],
+    "edges": [
+        {
+            "id": 64679888,
+            "edge_type": 2,
+            "start": 64678304,
+            "end": 128370744
+        }
+    ]
+}
